@@ -1,0 +1,26 @@
+{
+  "name": "ex1-homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start-1": "set NODE_ENV=1 && nodemon index.js",
+    "start-2": "set NODE_ENV=2 && nodemon index.js",
+    "start-3": "set NODE_ENV=3 && nodemon index.js",
+    "start-4": "set NODE_ENV=4 && nodemon index.js",
+    "start-5": "set NODE_ENV=5 && nodemon index.js",
+    "start-6": "set NODE_ENV=6 && nodemon index.js",
+    "start-7": "set NODE_ENV=7 && nodemon index.js",
+    "start-8": "set NODE_ENV=8 && nodemon index.js",
+    "start-9": "set NODE_ENV=9 && nodemon index.js",
+    "start-10": "set NODE_ENV=10 && nodemon index.js",
+    "start-11": "set NODE_ENV=11 && nodemon index.js",
+    "start-12": "set NODE_ENV=12 && nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
