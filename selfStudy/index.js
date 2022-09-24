@@ -1,4 +1,4 @@
-import { algoritmStructData } from "./algoritmStructData/index.js";
+import { algoritmStructData } from './algoritmStructData/index.js';
 
 const array = [7, 9, 4, 5, 6];
 const arraySort = [
@@ -12,12 +12,12 @@ const arraySort = [
 
 const graph = {};
 
-graph.a = ["b"];
-graph.b = ["c"];
-graph.c = ["b"];
+graph.a = ['b'];
+graph.b = ['c'];
+graph.c = ['b'];
 
 algoritmStructData({
-  nameAlgoritm: "breadthSearch",
+  nameAlgoritm: 'breadthSearch',
   array: array,
   findEl: 10,
   graph,

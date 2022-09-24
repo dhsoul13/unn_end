@@ -1,10 +1,10 @@
 export const algoritmStructData = ({
-  nameAlgoritm = "",
+  nameAlgoritm = '',
   array,
   findEl,
   graph,
 }) => {
-  console.log("Data");
+  console.log('Data');
 
   /// Алгоритм - последовательность ходов
   // Сложность O(n) n - колличество операций, причем всегда в худшию
@@ -16,8 +16,8 @@ export const algoritmStructData = ({
 
   /// Линейный поиск
 
-  if (nameAlgoritm === "line") {
-    console.log("line");
+  if (nameAlgoritm === 'line') {
+    console.log('line');
     let k = 0;
     let count = 0;
     for (let i = 0; i < array.length; i++) {
@@ -31,13 +31,13 @@ export const algoritmStructData = ({
       console.log(`Хмм походу нет`);
     }
 
-    console.log("Колличество итераций:" + count);
+    console.log('Колличество итераций:' + count);
   }
 
   ///Бинарный поиск
 
-  if (nameAlgoritm === "binar") {
-    console.log("binar");
+  if (nameAlgoritm === 'binar') {
+    console.log('binar');
 
     /// Для старта:
     let start = 0;
@@ -90,8 +90,8 @@ export const algoritmStructData = ({
 
   //1. Выбора
 
-  if (nameAlgoritm === "Sort-Selection") {
-    console.log("selection sort");
+  if (nameAlgoritm === 'Sort-Selection') {
+    console.log('selection sort');
 
     // for (let i = 0; i < array.length; i++) {
     //   let min = i;
@@ -123,8 +123,8 @@ export const algoritmStructData = ({
   }
 
   //2 Пузырьковая сортировка
-  if (nameAlgoritm === "Sort-Bubble") {
-    console.log("sort-buble");
+  if (nameAlgoritm === 'Sort-Bubble') {
+    console.log('sort-buble');
     for (let i = 0; i < array.length; i++) {
       for (let k = i + 1; k < array.length; k++) {
         if (array[k] < array[i]) {
@@ -139,8 +139,8 @@ export const algoritmStructData = ({
 
   //3 Быстрая сортировка
 
-  if (nameAlgoritm === "Sort-Quich") {
-    console.log("Sort-Quich");
+  if (nameAlgoritm === 'Sort-Quich') {
+    console.log('Sort-Quich');
 
     function quich(array) {
       if (array.length <= 1) {
@@ -170,8 +170,8 @@ export const algoritmStructData = ({
 
   // Рекурсия - это функция которая вызывает сама себя
 
-  if (nameAlgoritm === "recursion") {
-    console.log("recursion");
+  if (nameAlgoritm === 'recursion') {
+    console.log('recursion');
 
     const factorial = (n) => {
       if (n === 1) {
@@ -190,8 +190,8 @@ export const algoritmStructData = ({
     console.log(fibonachi(10));
   }
 
-  if (nameAlgoritm === "breadthSearch") {
-    console.log("breadthSearch");
+  if (nameAlgoritm === 'breadthSearch') {
+    console.log('breadthSearch');
     // graph.a = ["b"];
     // graph.b = ["c"];
     // graph.c = ["f", "d"];
@@ -220,6 +220,6 @@ export const algoritmStructData = ({
       return false;
     };
 
-    console.log(graphResult(graph, "a", "c"));
+    console.log(graphResult(graph, 'a', 'c'));
   }
 };
