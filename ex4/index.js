@@ -70,3 +70,17 @@ switch ('admin') {
     break;
   }
 }
+
+
+
+
+const chooseYears = (start, end) => {
+  const yearmas = [];
+  for (let i = start; end >= i; i++) {
+    yearmas.push((i % 4 === 0 && i % 100 !== 0) || i % 400 === 0 ? i : '');
+  }
+
+  return yearmas.filter((el) => el);
+};
+
+console.log(chooseYears(1990, 2100));
