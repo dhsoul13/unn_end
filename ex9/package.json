@@ -1,9 +1,8 @@
 {
-  "name": "ex7",
+  "name": "ex9",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "nodemon index.js"
   },
